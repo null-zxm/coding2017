@@ -1,8 +1,8 @@
-package com.coderising.ood.srp;
+package srp;
 
 public class MailUtil {
 
-	public static void sendEmail(String toAddress, String fromAddress, String subject, String message, String smtpHost,
+	public static void sendEmail(String toAddress, String fromAddress, String subject, StringBuffer message, String smtpHost,
 			boolean debug) {
 		//假装发了一封邮件
 		StringBuilder buffer = new StringBuilder();

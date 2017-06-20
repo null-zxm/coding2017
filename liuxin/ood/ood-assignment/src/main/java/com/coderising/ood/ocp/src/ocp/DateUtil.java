@@ -1,4 +1,4 @@
-package com.coderising.ood.ocp;
+package ocp;
 
 public class DateUtil {
 
