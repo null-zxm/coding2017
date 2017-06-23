@@ -1,6 +1,6 @@
 package ocp;
 
-public class Msg implements Type{
+public class Msg implements Content{
 
 	@Override
 	public String MsgType(String msg) {

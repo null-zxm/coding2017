@@ -36,7 +36,7 @@ public class PromotionMail {
 			sendEMails(toAddress,message);
 		}
 	}
-	
+	//可以放到一个Mail 对象 
 	protected StringBuffer setMessage(String name,String pd) throws IOException 
 	{
 		subject="减价了";

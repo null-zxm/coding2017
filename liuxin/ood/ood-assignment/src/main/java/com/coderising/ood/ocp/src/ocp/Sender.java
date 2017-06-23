@@ -1,5 +1,5 @@
 package ocp;
 
-public interface Method {
+public interface Sender {
 	void send(String msg);
 }

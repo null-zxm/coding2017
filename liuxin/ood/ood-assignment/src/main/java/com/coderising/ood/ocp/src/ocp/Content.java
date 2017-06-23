@@ -1,5 +1,5 @@
 package ocp;
 
-public interface Type {
+public interface Content {
 	String MsgType(String msg);
 }

@@ -1,6 +1,6 @@
 package ocp;
 
-public class Msg_Date implements Type {
+public class Msg_Date implements Content {
 
 
 	public String MsgType(String msg) {

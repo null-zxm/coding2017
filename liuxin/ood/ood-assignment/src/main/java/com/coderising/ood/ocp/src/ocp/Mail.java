@@ -1,6 +1,6 @@
 package ocp;
 
-public class Mail implements Method{
+public class Mail implements Sender{
 
 	@Override
 	public void send(String msg) {

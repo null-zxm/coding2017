@@ -1,14 +1,14 @@
 package ocp;
 
 public class Logger {
-	Type type ;
-	Method method;
-	public Logger(Type type, Method method){
-		this.type = type;
-		this.method = method;		
+	Content contant ;
+	Sender senter;
+	public Logger(Content contant, Sender senter){
+		this.contant = contant;
+		this.senter = senter;		
 	}
 	public void log(String msg){
-		method.send(type.MsgType(msg));
+		senter.send(contant.MsgType(msg));
 	}
 }
 

@@ -1,6 +1,6 @@
 package ocp;
 
-public class Sms implements Method {
+public class Sms implements Sender {
 
 	@Override
 	public void send(String msg) {
